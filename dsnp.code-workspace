@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"cSpell.language": "en"
+		"cSpell.language": "en",
+    	"explorer.excludeGitIgnore": false
 	}
 }
