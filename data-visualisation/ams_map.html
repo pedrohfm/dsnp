@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6d5451e6964fed619852e4c266afd3a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6d5451e6964fed619852e4c266afd3a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6d5451e6964fed619852e4c266afd3a2 = L.map(
+                "map_6d5451e6964fed619852e4c266afd3a2",
+                {
+                    center: [52.3676, 4.9041],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f451ec92a5ace3379f29ca0d793e361e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+            var marker_389c19587d83840cd5a3208fbf906201 = L.marker(
+                [52.35324, 4.86853],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_afe19c31e56b1634a4f307364b12997a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b93a1edcc11a3ba733d56b5650db3f = $(`<div id="html_16b93a1edcc11a3ba733d56b5650db3f" style="width: 100.0%; height: 100.0%;">3 bedroom family house near Vondelpark and museums</div>`)[0];
+                popup_afe19c31e56b1634a4f307364b12997a.setContent(html_16b93a1edcc11a3ba733d56b5650db3f);
+            
+        
+
+        marker_389c19587d83840cd5a3208fbf906201.bindPopup(popup_afe19c31e56b1634a4f307364b12997a)
+        ;
+
+        
+    
+    
+            var marker_a8ad0e14ef4795c8d69c8bd0024c036a = L.marker(
+                [52.36663, 4.87528],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_69b8a1a4ea4e96597ff491518b68ae6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86ad620e756b666114d292df06f517f4 = $(`<div id="html_86ad620e756b666114d292df06f517f4" style="width: 100.0%; height: 100.0%;">Charming apartment in the center of Amsterdam</div>`)[0];
+                popup_69b8a1a4ea4e96597ff491518b68ae6d.setContent(html_86ad620e756b666114d292df06f517f4);
+            
+        
+
+        marker_a8ad0e14ef4795c8d69c8bd0024c036a.bindPopup(popup_69b8a1a4ea4e96597ff491518b68ae6d)
+        ;
+
+        
+    
+    
+            var marker_9679abff69e9c4c4e24fbe4c8dcba627 = L.marker(
+                [52.3881, 4.91438],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_f8370224e1883bf30bd12670c8f84b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1415c4a79ed008a4ef10ae18cf62d3e8 = $(`<div id="html_1415c4a79ed008a4ef10ae18cf62d3e8" style="width: 100.0%; height: 100.0%;">Sleeping in a Church - Room for 5 at BUNK</div>`)[0];
+                popup_f8370224e1883bf30bd12670c8f84b64.setContent(html_1415c4a79ed008a4ef10ae18cf62d3e8);
+            
+        
+
+        marker_9679abff69e9c4c4e24fbe4c8dcba627.bindPopup(popup_f8370224e1883bf30bd12670c8f84b64)
+        ;
+
+        
+    
+    
+            var marker_aebc07fdf592efe5dd1cbed1cd646419 = L.marker(
+                [52.364, 4.93945],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_7dfd2f1818600f87a6eb05d1471921cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec53a1e5dc8432b479799d4e7a8c2bc5 = $(`<div id="html_ec53a1e5dc8432b479799d4e7a8c2bc5" style="width: 100.0%; height: 100.0%;">Perfect city apartment in Amsterdam Oost</div>`)[0];
+                popup_7dfd2f1818600f87a6eb05d1471921cd.setContent(html_ec53a1e5dc8432b479799d4e7a8c2bc5);
+            
+        
+
+        marker_aebc07fdf592efe5dd1cbed1cd646419.bindPopup(popup_7dfd2f1818600f87a6eb05d1471921cd)
+        ;
+
+        
+    
+    
+            var marker_0bf12e798113ab2ec06d1c5f66741d87 = L.marker(
+                [52.36467, 4.94011],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_53acee9508b3db95feddede8f226a856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cd6dd6ed5c6a8d4122231450c774dcb = $(`<div id="html_1cd6dd6ed5c6a8d4122231450c774dcb" style="width: 100.0%; height: 100.0%;">Cosy East Apartment</div>`)[0];
+                popup_53acee9508b3db95feddede8f226a856.setContent(html_1cd6dd6ed5c6a8d4122231450c774dcb);
+            
+        
+
+        marker_0bf12e798113ab2ec06d1c5f66741d87.bindPopup(popup_53acee9508b3db95feddede8f226a856)
+        ;
+
+        
+    
+    
+            var marker_026c55e29cec0d1b4f61d2e3f74c74e4 = L.marker(
+                [52.36611, 4.88749],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_b66d89e67962e2009c7c7b30ba618714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f28293e12aa00c5b121c59fb4cf02df = $(`<div id="html_1f28293e12aa00c5b121c59fb4cf02df" style="width: 100.0%; height: 100.0%;">Live like a king on the Keizersgracht</div>`)[0];
+                popup_b66d89e67962e2009c7c7b30ba618714.setContent(html_1f28293e12aa00c5b121c59fb4cf02df);
+            
+        
+
+        marker_026c55e29cec0d1b4f61d2e3f74c74e4.bindPopup(popup_b66d89e67962e2009c7c7b30ba618714)
+        ;
+
+        
+    
+    
+            var marker_84f0c1f99bc45c90f582c9b4071bfe24 = L.marker(
+                [52.37088, 4.86699],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_e77499c79f968e4145cec64e2a819c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9188ea5b2fa43311f50cf7ece69def5c = $(`<div id="html_9188ea5b2fa43311f50cf7ece69def5c" style="width: 100.0%; height: 100.0%;">Private cosy light studio in Old-west with airco</div>`)[0];
+                popup_e77499c79f968e4145cec64e2a819c4e.setContent(html_9188ea5b2fa43311f50cf7ece69def5c);
+            
+        
+
+        marker_84f0c1f99bc45c90f582c9b4071bfe24.bindPopup(popup_e77499c79f968e4145cec64e2a819c4e)
+        ;
+
+        
+    
+    
+            var marker_1f80e66aef061385f43a052605a88ddc = L.marker(
+                [52.38325, 4.8497],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_6edd252b8aed9a448040e16ca4e116ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09fa97f4ddaaf5bcf8fcb34d4bceec71 = $(`<div id="html_09fa97f4ddaaf5bcf8fcb34d4bceec71" style="width: 100.0%; height: 100.0%;">Cosy Apartment</div>`)[0];
+                popup_6edd252b8aed9a448040e16ca4e116ae.setContent(html_09fa97f4ddaaf5bcf8fcb34d4bceec71);
+            
+        
+
+        marker_1f80e66aef061385f43a052605a88ddc.bindPopup(popup_6edd252b8aed9a448040e16ca4e116ae)
+        ;
+
+        
+    
+    
+            var marker_162a31a2efae6b082e05625956057755 = L.marker(
+                [52.3499, 4.93633],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_f15da27b64a5ef48f6dd64d3ed5ffae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_858adb84c21d81d4e557a5c3a6909755 = $(`<div id="html_858adb84c21d81d4e557a5c3a6909755" style="width: 100.0%; height: 100.0%;">Heaven in East B&B</div>`)[0];
+                popup_f15da27b64a5ef48f6dd64d3ed5ffae4.setContent(html_858adb84c21d81d4e557a5c3a6909755);
+            
+        
+
+        marker_162a31a2efae6b082e05625956057755.bindPopup(popup_f15da27b64a5ef48f6dd64d3ed5ffae4)
+        ;
+
+        
+    
+    
+            var marker_311af389b4205725841cffcd772188cd = L.marker(
+                [52.37543, 4.84768],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_4615e6b6eab3cb331291af8d942a6b68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fadc9cb966aacad328d84c75d6288c3d = $(`<div id="html_fadc9cb966aacad328d84c75d6288c3d" style="width: 100.0%; height: 100.0%;">Nice apartment with roof terrace</div>`)[0];
+                popup_4615e6b6eab3cb331291af8d942a6b68.setContent(html_fadc9cb966aacad328d84c75d6288c3d);
+            
+        
+
+        marker_311af389b4205725841cffcd772188cd.bindPopup(popup_4615e6b6eab3cb331291af8d942a6b68)
+        ;
+
+        
+    
+    
+            var marker_82d59e3f1cda1c1655c7170a3d66d3fb = L.marker(
+                [52.37227, 4.94747],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_1613d9f9e44416781866c99fb8213cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4de97593ad5776abc3b3d09a4e72605c = $(`<div id="html_4de97593ad5776abc3b3d09a4e72605c" style="width: 100.0%; height: 100.0%;">Lovely house @the waterfront with terrace</div>`)[0];
+                popup_1613d9f9e44416781866c99fb8213cfa.setContent(html_4de97593ad5776abc3b3d09a4e72605c);
+            
+        
+
+        marker_82d59e3f1cda1c1655c7170a3d66d3fb.bindPopup(popup_1613d9f9e44416781866c99fb8213cfa)
+        ;
+
+        
+    
+    
+            var marker_6c28c888c816b661459d2d7132a0c12d = L.marker(
+                [52.376845596687595, 4.89488092327881],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_a83d262a9156802054c27a6c3c3fbba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_624dc2524d27b4f38f9bd16c3e308a99 = $(`<div id="html_624dc2524d27b4f38f9bd16c3e308a99" style="width: 100.0%; height: 100.0%;">Best Neighbourhood Apartment</div>`)[0];
+                popup_a83d262a9156802054c27a6c3c3fbba8.setContent(html_624dc2524d27b4f38f9bd16c3e308a99);
+            
+        
+
+        marker_6c28c888c816b661459d2d7132a0c12d.bindPopup(popup_a83d262a9156802054c27a6c3c3fbba8)
+        ;
+
+        
+    
+    
+            var marker_d53b84a7e543564877e664febdf95615 = L.marker(
+                [52.38399, 4.83583],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_44107d94f73db9954c56cbacf7809f5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46881ab85d29bf14fe5786b17d82072e = $(`<div id="html_46881ab85d29bf14fe5786b17d82072e" style="width: 100.0%; height: 100.0%;">Room quiet neighborhood nr centre Amsterdam</div>`)[0];
+                popup_44107d94f73db9954c56cbacf7809f5f.setContent(html_46881ab85d29bf14fe5786b17d82072e);
+            
+        
+
+        marker_d53b84a7e543564877e664febdf95615.bindPopup(popup_44107d94f73db9954c56cbacf7809f5f)
+        ;
+
+        
+    
+    
+            var marker_730851dfe403820bbe3e3bd253369cd4 = L.marker(
+                [52.3609, 4.90943],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_5e0d89e8f733a91e83efbee0dd244e0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bff156402bd14937242868d3f238b6c = $(`<div id="html_5bff156402bd14937242868d3f238b6c" style="width: 100.0%; height: 100.0%;">Weesper Studio Two</div>`)[0];
+                popup_5e0d89e8f733a91e83efbee0dd244e0f.setContent(html_5bff156402bd14937242868d3f238b6c);
+            
+        
+
+        marker_730851dfe403820bbe3e3bd253369cd4.bindPopup(popup_5e0d89e8f733a91e83efbee0dd244e0f)
+        ;
+
+        
+    
+    
+            var marker_2d2f7d8b51596d90965cbc435fb4095c = L.marker(
+                [52.3589438, 4.8593646],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_d1bd7b693dc0ba839495ec9043cf28b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efba752172c1b17d41268c3328420bf0 = $(`<div id="html_efba752172c1b17d41268c3328420bf0" style="width: 100.0%; height: 100.0%;">Lovely room close to city!</div>`)[0];
+                popup_d1bd7b693dc0ba839495ec9043cf28b1.setContent(html_efba752172c1b17d41268c3328420bf0);
+            
+        
+
+        marker_2d2f7d8b51596d90965cbc435fb4095c.bindPopup(popup_d1bd7b693dc0ba839495ec9043cf28b1)
+        ;
+
+        
+    
+    
+            var marker_f63a7b600b8a078123734f1dede2f89a = L.marker(
+                [52.36273339251735, 4.935317959488421],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_db18b45037d48205e93bb5267300bdee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fb92a8be20f6b49fa5d545c763a1f55 = $(`<div id="html_4fb92a8be20f6b49fa5d545c763a1f55" style="width: 100.0%; height: 100.0%;">Rooftop Terrace Design Apartment</div>`)[0];
+                popup_db18b45037d48205e93bb5267300bdee.setContent(html_4fb92a8be20f6b49fa5d545c763a1f55);
+            
+        
+
+        marker_f63a7b600b8a078123734f1dede2f89a.bindPopup(popup_db18b45037d48205e93bb5267300bdee)
+        ;
+
+        
+    
+    
+            var marker_85334e452df516f2dddf49c78cf32fc1 = L.marker(
+                [52.39231, 4.92461],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_4c47a7f4e688b5d10fafa00dd8741594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bea35187bb72cf6b4611bcce6e36f434 = $(`<div id="html_bea35187bb72cf6b4611bcce6e36f434" style="width: 100.0%; height: 100.0%;">Charming and comfortable home in Amsterdam</div>`)[0];
+                popup_4c47a7f4e688b5d10fafa00dd8741594.setContent(html_bea35187bb72cf6b4611bcce6e36f434);
+            
+        
+
+        marker_85334e452df516f2dddf49c78cf32fc1.bindPopup(popup_4c47a7f4e688b5d10fafa00dd8741594)
+        ;
+
+        
+    
+    
+            var marker_cce8ef1e076ecb4b1ecbed4b7e47120a = L.marker(
+                [52.3656, 4.86754],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_ce11951db7fc87e9fc8b3fcc1b1bb0a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2e50b687997a57e91ffa397733999f = $(`<div id="html_2d2e50b687997a57e91ffa397733999f" style="width: 100.0%; height: 100.0%;">Centrally located trendy loft w/ jacuzzi + rooftop</div>`)[0];
+                popup_ce11951db7fc87e9fc8b3fcc1b1bb0a0.setContent(html_2d2e50b687997a57e91ffa397733999f);
+            
+        
+
+        marker_cce8ef1e076ecb4b1ecbed4b7e47120a.bindPopup(popup_ce11951db7fc87e9fc8b3fcc1b1bb0a0)
+        ;
+
+        
+    
+    
+            var marker_ba83c3dc2b499e7a59df9674a2edd5d6 = L.marker(
+                [52.36796, 4.91124],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_eaed26946161554de7218d323ea91405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5738b1fe06eb31af682c5f0633fcf119 = $(`<div id="html_5738b1fe06eb31af682c5f0633fcf119" style="width: 100.0%; height: 100.0%;">Small Double Room</div>`)[0];
+                popup_eaed26946161554de7218d323ea91405.setContent(html_5738b1fe06eb31af682c5f0633fcf119);
+            
+        
+
+        marker_ba83c3dc2b499e7a59df9674a2edd5d6.bindPopup(popup_eaed26946161554de7218d323ea91405)
+        ;
+
+        
+    
+    
+            var marker_39b48534b09890bc78bbf76643fac2da = L.marker(
+                [52.35901, 4.99211],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_e4e57773dd284e7053b0e26198a0abe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21994e2d8bfe559b1964bbb4d494469d = $(`<div id="html_21994e2d8bfe559b1964bbb4d494469d" style="width: 100.0%; height: 100.0%;">A beautiful house overlooking the water</div>`)[0];
+                popup_e4e57773dd284e7053b0e26198a0abe7.setContent(html_21994e2d8bfe559b1964bbb4d494469d);
+            
+        
+
+        marker_39b48534b09890bc78bbf76643fac2da.bindPopup(popup_e4e57773dd284e7053b0e26198a0abe7)
+        ;
+
+        
+    
+    
+            var marker_8e8f8bf7925ae2b278f8435b6ce28ab1 = L.marker(
+                [52.36441, 4.93942],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_0b885a44424a630a4019732bbeaaf598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c07f8dca521f475e6ca95c983162285 = $(`<div id="html_9c07f8dca521f475e6ca95c983162285" style="width: 100.0%; height: 100.0%;">House with beautiful garden - Amsterdam</div>`)[0];
+                popup_0b885a44424a630a4019732bbeaaf598.setContent(html_9c07f8dca521f475e6ca95c983162285);
+            
+        
+
+        marker_8e8f8bf7925ae2b278f8435b6ce28ab1.bindPopup(popup_0b885a44424a630a4019732bbeaaf598)
+        ;
+
+        
+    
+    
+            var marker_f7868b965db32e6facd2135843abcaba = L.marker(
+                [52.35748, 4.89735],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_3b201d1d9547da30c7999c81c36b8f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e652663c9f865e90f93581117c191b20 = $(`<div id="html_e652663c9f865e90f93581117c191b20" style="width: 100.0%; height: 100.0%;">NEW! Private and stylish apartment - Casa Blake</div>`)[0];
+                popup_3b201d1d9547da30c7999c81c36b8f45.setContent(html_e652663c9f865e90f93581117c191b20);
+            
+        
+
+        marker_f7868b965db32e6facd2135843abcaba.bindPopup(popup_3b201d1d9547da30c7999c81c36b8f45)
+        ;
+
+        
+    
+    
+            var marker_97c8e09a90a33b232e41c2c1f50ea52a = L.marker(
+                [52.3439766, 4.9074437],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_56bc5589e69d9b5416a805f9ed24ec42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b81449f3a5daf49ad9372b61c21d31 = $(`<div id="html_47b81449f3a5daf49ad9372b61c21d31" style="width: 100.0%; height: 100.0%;">Modern apartment Amsterdam</div>`)[0];
+                popup_56bc5589e69d9b5416a805f9ed24ec42.setContent(html_47b81449f3a5daf49ad9372b61c21d31);
+            
+        
+
+        marker_97c8e09a90a33b232e41c2c1f50ea52a.bindPopup(popup_56bc5589e69d9b5416a805f9ed24ec42)
+        ;
+
+        
+    
+    
+            var marker_4c99201e4cfafdb723f079bdaa567433 = L.marker(
+                [52.36242950688756, 4.8431132809509325],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_21c1892a830f0e7cf9f93527a8bbaac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea90eac62520bffcda03af7e8adf6442 = $(`<div id="html_ea90eac62520bffcda03af7e8adf6442" style="width: 100.0%; height: 100.0%;">Luxurious newly renovated home</div>`)[0];
+                popup_21c1892a830f0e7cf9f93527a8bbaac6.setContent(html_ea90eac62520bffcda03af7e8adf6442);
+            
+        
+
+        marker_4c99201e4cfafdb723f079bdaa567433.bindPopup(popup_21c1892a830f0e7cf9f93527a8bbaac6)
+        ;
+
+        
+    
+    
+            var marker_1c40d86b22e140b3bf5bd87ca735b5d7 = L.marker(
+                [52.29907, 4.99637],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_44590cb673da583cf478cd31a78ceeac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d26316e883d8aea6d605c2fc63609a9f = $(`<div id="html_d26316e883d8aea6d605c2fc63609a9f" style="width: 100.0%; height: 100.0%;">House for a family in Amsterdam</div>`)[0];
+                popup_44590cb673da583cf478cd31a78ceeac.setContent(html_d26316e883d8aea6d605c2fc63609a9f);
+            
+        
+
+        marker_1c40d86b22e140b3bf5bd87ca735b5d7.bindPopup(popup_44590cb673da583cf478cd31a78ceeac)
+        ;
+
+        
+    
+    
+            var marker_7cf6d50fdbf1b10c26cc27024d7183f5 = L.marker(
+                [52.36848, 4.85838],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_557da4b21c4e08f2963a5c00b60da7b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94c9eb0c877895b5b36fd06697b9dfd = $(`<div id="html_a94c9eb0c877895b5b36fd06697b9dfd" style="width: 100.0%; height: 100.0%;">Unique and spacious appartment with canal view!</div>`)[0];
+                popup_557da4b21c4e08f2963a5c00b60da7b8.setContent(html_a94c9eb0c877895b5b36fd06697b9dfd);
+            
+        
+
+        marker_7cf6d50fdbf1b10c26cc27024d7183f5.bindPopup(popup_557da4b21c4e08f2963a5c00b60da7b8)
+        ;
+
+        
+    
+    
+            var marker_f806616d5b107750879b4664c1138850 = L.marker(
+                [52.37885657749955, 4.875166407490441],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_2d6edcf60f2c3bc495b83ae5177bd32f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_321b4c76a55bd40b2649cce9bd0ea55c = $(`<div id="html_321b4c76a55bd40b2649cce9bd0ea55c" style="width: 100.0%; height: 100.0%;">Cosy Appartment - Jordaan/ West</div>`)[0];
+                popup_2d6edcf60f2c3bc495b83ae5177bd32f.setContent(html_321b4c76a55bd40b2649cce9bd0ea55c);
+            
+        
+
+        marker_f806616d5b107750879b4664c1138850.bindPopup(popup_2d6edcf60f2c3bc495b83ae5177bd32f)
+        ;
+
+        
+    
+    
+            var marker_e5158cca19e7e029a62a9dc4f08754f9 = L.marker(
+                [52.37296, 4.89538],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_68334aef5968851f456933f89f000564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_983a0b6f99ca44020d5e98439018b355 = $(`<div id="html_983a0b6f99ca44020d5e98439018b355" style="width: 100.0%; height: 100.0%;">Damsquare view | Private Apartment | Luxurious BIG</div>`)[0];
+                popup_68334aef5968851f456933f89f000564.setContent(html_983a0b6f99ca44020d5e98439018b355);
+            
+        
+
+        marker_e5158cca19e7e029a62a9dc4f08754f9.bindPopup(popup_68334aef5968851f456933f89f000564)
+        ;
+
+        
+    
+    
+            var marker_0e894fbbc0272e5975fcd523edcb468b = L.marker(
+                [52.36489, 4.88026],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_3ef1ec3144bb6eb7487ff0231aa86006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1292737a2c1ad2fd95fb0a88c4972464 = $(`<div id="html_1292737a2c1ad2fd95fb0a88c4972464" style="width: 100.0%; height: 100.0%;">Triple Room Hotel Weber</div>`)[0];
+                popup_3ef1ec3144bb6eb7487ff0231aa86006.setContent(html_1292737a2c1ad2fd95fb0a88c4972464);
+            
+        
+
+        marker_0e894fbbc0272e5975fcd523edcb468b.bindPopup(popup_3ef1ec3144bb6eb7487ff0231aa86006)
+        ;
+
+        
+    
+    
+            var marker_a34d70829ebf19cfcbc5c8b2d39be4ad = L.marker(
+                [52.37534, 4.88118],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_6903c74cfeef5fe7c1eb261af18c38b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55544187248778a668c4e6857e96297d = $(`<div id="html_55544187248778a668c4e6857e96297d" style="width: 100.0%; height: 100.0%;">Beautiful light and spacious apartment in Jordaan</div>`)[0];
+                popup_6903c74cfeef5fe7c1eb261af18c38b2.setContent(html_55544187248778a668c4e6857e96297d);
+            
+        
+
+        marker_a34d70829ebf19cfcbc5c8b2d39be4ad.bindPopup(popup_6903c74cfeef5fe7c1eb261af18c38b2)
+        ;
+
+        
+    
+    
+            var marker_bdd6d95a26c0fe49a891cd0af491f9a8 = L.marker(
+                [52.3801, 4.89189],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_d5dd0626408ebb3d85c9bff084fef590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35fae23cfae0af2c84e8b52ebd4894ab = $(`<div id="html_35fae23cfae0af2c84e8b52ebd4894ab" style="width: 100.0%; height: 100.0%;">Exclusive canal apartment at a romantic Brouwersgr</div>`)[0];
+                popup_d5dd0626408ebb3d85c9bff084fef590.setContent(html_35fae23cfae0af2c84e8b52ebd4894ab);
+            
+        
+
+        marker_bdd6d95a26c0fe49a891cd0af491f9a8.bindPopup(popup_d5dd0626408ebb3d85c9bff084fef590)
+        ;
+
+        
+    
+    
+            var marker_b4d352e0ad291de247191ca93846b0d5 = L.marker(
+                [52.3349, 4.90802],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_7a46068786b8d3c459b3992e223a30b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc6d4a6ddb4a7033fb2d404a9cef800 = $(`<div id="html_bdc6d4a6ddb4a7033fb2d404a9cef800" style="width: 100.0%; height: 100.0%;">Wooden House</div>`)[0];
+                popup_7a46068786b8d3c459b3992e223a30b6.setContent(html_bdc6d4a6ddb4a7033fb2d404a9cef800);
+            
+        
+
+        marker_b4d352e0ad291de247191ca93846b0d5.bindPopup(popup_7a46068786b8d3c459b3992e223a30b6)
+        ;
+
+        
+    
+    
+            var marker_3015085245a3a1e71faa9028738b2938 = L.marker(
+                [52.3974598, 4.9584716],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_9b2dcbceed47f0b96f3e925f58ecb0e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae8ef1e2eda1e1ef301de3ea2c88db9 = $(`<div id="html_aae8ef1e2eda1e1ef301de3ea2c88db9" style="width: 100.0%; height: 100.0%;">Modern top floor apartment 15 min from center</div>`)[0];
+                popup_9b2dcbceed47f0b96f3e925f58ecb0e4.setContent(html_aae8ef1e2eda1e1ef301de3ea2c88db9);
+            
+        
+
+        marker_3015085245a3a1e71faa9028738b2938.bindPopup(popup_9b2dcbceed47f0b96f3e925f58ecb0e4)
+        ;
+
+        
+    
+    
+            var marker_ec21852289de5de13b8dc3ad26c2cd89 = L.marker(
+                [52.3618, 4.94421],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_dbe86435a491c869a28ca1af4774923d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20892e8a6eea0731a5d07695ba9a99ff = $(`<div id="html_20892e8a6eea0731a5d07695ba9a99ff" style="width: 100.0%; height: 100.0%;">Modern bedroom (Living room not shared)</div>`)[0];
+                popup_dbe86435a491c869a28ca1af4774923d.setContent(html_20892e8a6eea0731a5d07695ba9a99ff);
+            
+        
+
+        marker_ec21852289de5de13b8dc3ad26c2cd89.bindPopup(popup_dbe86435a491c869a28ca1af4774923d)
+        ;
+
+        
+    
+    
+            var marker_4bcd5f62b4c1e0bc4129b76671c147f3 = L.marker(
+                [52.35458, 4.89031],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_2a2fae6e45edc49e093010d3235caea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_855f09f4a42664a96d5492d8870bf4b7 = $(`<div id="html_855f09f4a42664a96d5492d8870bf4b7" style="width: 100.0%; height: 100.0%;">Beautiful and cozy flat in center of Amsterdam!</div>`)[0];
+                popup_2a2fae6e45edc49e093010d3235caea1.setContent(html_855f09f4a42664a96d5492d8870bf4b7);
+            
+        
+
+        marker_4bcd5f62b4c1e0bc4129b76671c147f3.bindPopup(popup_2a2fae6e45edc49e093010d3235caea1)
+        ;
+
+        
+    
+    
+            var marker_adf24918d4475fe77b680042d6eff5bd = L.marker(
+                [52.36388299999999, 4.904487],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_98cd691c88b46739781ffcb218502909 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a123d4cc58a0cc0832ebf84d82f7a08b = $(`<div id="html_a123d4cc58a0cc0832ebf84d82f7a08b" style="width: 100.0%; height: 100.0%;">Apartment with rooftop terrace in city center</div>`)[0];
+                popup_98cd691c88b46739781ffcb218502909.setContent(html_a123d4cc58a0cc0832ebf84d82f7a08b);
+            
+        
+
+        marker_adf24918d4475fe77b680042d6eff5bd.bindPopup(popup_98cd691c88b46739781ffcb218502909)
+        ;
+
+        
+    
+    
+            var marker_e65f48a8e3da6a518fce0cd60de4e901 = L.marker(
+                [52.35538118863435, 4.89059531953413],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_a36d7a45c2d6844a6c4529e96f657fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15b2317918a0d13b3e125fe1cc0b86e0 = $(`<div id="html_15b2317918a0d13b3e125fe1cc0b86e0" style="width: 100.0%; height: 100.0%;">Huis met tuin in Amsterdam City Center/De Pijp</div>`)[0];
+                popup_a36d7a45c2d6844a6c4529e96f657fb6.setContent(html_15b2317918a0d13b3e125fe1cc0b86e0);
+            
+        
+
+        marker_e65f48a8e3da6a518fce0cd60de4e901.bindPopup(popup_a36d7a45c2d6844a6c4529e96f657fb6)
+        ;
+
+        
+    
+    
+            var marker_882ad6b6cdadb3aa11ff1b874f301e3c = L.marker(
+                [52.39854, 4.97583],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_07f7f617ff4ff0314db7e354bde0ecd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5e576e439343c6cfb539d23dfa69aaf = $(`<div id="html_d5e576e439343c6cfb539d23dfa69aaf" style="width: 100.0%; height: 100.0%;">Amazing private house Amsterdam</div>`)[0];
+                popup_07f7f617ff4ff0314db7e354bde0ecd1.setContent(html_d5e576e439343c6cfb539d23dfa69aaf);
+            
+        
+
+        marker_882ad6b6cdadb3aa11ff1b874f301e3c.bindPopup(popup_07f7f617ff4ff0314db7e354bde0ecd1)
+        ;
+
+        
+    
+    
+            var marker_57927812fed501be6c0165bec1ccabc0 = L.marker(
+                [52.36461407951789, 4.859001463055467],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_379ec270f29e68ab6a6101e2b4d17b7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_100a940b8e349c03767ce5a156ad69db = $(`<div id="html_100a940b8e349c03767ce5a156ad69db" style="width: 100.0%; height: 100.0%;">1BR Flat in Amsterdam Oud West</div>`)[0];
+                popup_379ec270f29e68ab6a6101e2b4d17b7c.setContent(html_100a940b8e349c03767ce5a156ad69db);
+            
+        
+
+        marker_57927812fed501be6c0165bec1ccabc0.bindPopup(popup_379ec270f29e68ab6a6101e2b4d17b7c)
+        ;
+
+        
+    
+    
+            var marker_4c4195d349042fec1b9b08d37802d984 = L.marker(
+                [52.3881, 4.91438],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_042113da2ed7ec0c96d6b0eb45b193ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aebc96a0f03f6cb48d782c9416244655 = $(`<div id="html_aebc96a0f03f6cb48d782c9416244655" style="width: 100.0%; height: 100.0%;">Sleeping in a Church - Pod for 1 at BUNK</div>`)[0];
+                popup_042113da2ed7ec0c96d6b0eb45b193ac.setContent(html_aebc96a0f03f6cb48d782c9416244655);
+            
+        
+
+        marker_4c4195d349042fec1b9b08d37802d984.bindPopup(popup_042113da2ed7ec0c96d6b0eb45b193ac)
+        ;
+
+        
+    
+    
+            var marker_27acf528d95f2a502532f44f09470169 = L.marker(
+                [52.35893, 4.92372],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_9f0e8c09a881f46fb1c339d800b9e459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_527c5b1a39fa0396b308d78d66664805 = $(`<div id="html_527c5b1a39fa0396b308d78d66664805" style="width: 100.0%; height: 100.0%;">Nice house and garden with all the basics and more</div>`)[0];
+                popup_9f0e8c09a881f46fb1c339d800b9e459.setContent(html_527c5b1a39fa0396b308d78d66664805);
+            
+        
+
+        marker_27acf528d95f2a502532f44f09470169.bindPopup(popup_9f0e8c09a881f46fb1c339d800b9e459)
+        ;
+
+        
+    
+    
+            var marker_8f675d3aa7c130b72a4a5c3550179873 = L.marker(
+                [52.36663, 4.85661],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_a561e9ea81eb189089c39acf712c257f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_847de136721577bc18db270878771f23 = $(`<div id="html_847de136721577bc18db270878771f23" style="width: 100.0%; height: 100.0%;">Bright, Spacious Apartment  in Amsterdam West</div>`)[0];
+                popup_a561e9ea81eb189089c39acf712c257f.setContent(html_847de136721577bc18db270878771f23);
+            
+        
+
+        marker_8f675d3aa7c130b72a4a5c3550179873.bindPopup(popup_a561e9ea81eb189089c39acf712c257f)
+        ;
+
+        
+    
+    
+            var marker_290594998f80d68c4d9e9e7578b0d5be = L.marker(
+                [52.390051782710216, 4.877990391142961],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_1f1cd2ec628936cb080d7d9e9b9c9f47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb67f3658d82caf78669d197674e0bde = $(`<div id="html_eb67f3658d82caf78669d197674e0bde" style="width: 100.0%; height: 100.0%;">Cozy Apartment in Amsterdam</div>`)[0];
+                popup_1f1cd2ec628936cb080d7d9e9b9c9f47.setContent(html_eb67f3658d82caf78669d197674e0bde);
+            
+        
+
+        marker_290594998f80d68c4d9e9e7578b0d5be.bindPopup(popup_1f1cd2ec628936cb080d7d9e9b9c9f47)
+        ;
+
+        
+    
+    
+            var marker_e7b5038ea4d113b0cc7575369959d9a2 = L.marker(
+                [52.38566, 4.88378],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_0b9b9b65634cbd1659219979b549348e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed1d06d4e6dc6b84914a5769a52e0e05 = $(`<div id="html_ed1d06d4e6dc6b84914a5769a52e0e05" style="width: 100.0%; height: 100.0%;">Room with private garden in CENTER of Amsterdam!</div>`)[0];
+                popup_0b9b9b65634cbd1659219979b549348e.setContent(html_ed1d06d4e6dc6b84914a5769a52e0e05);
+            
+        
+
+        marker_e7b5038ea4d113b0cc7575369959d9a2.bindPopup(popup_0b9b9b65634cbd1659219979b549348e)
+        ;
+
+        
+    
+    
+            var marker_39b5554362612f6d6c8fef00fd5db393 = L.marker(
+                [52.35186979722614, 4.998839613522049],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_67441747fac1606455b752980edd4e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd8163a65ecd9ae0ceca891cba5ff3d6 = $(`<div id="html_cd8163a65ecd9ae0ceca891cba5ff3d6" style="width: 100.0%; height: 100.0%;">Ruime gezinswoning in Amsterdam</div>`)[0];
+                popup_67441747fac1606455b752980edd4e39.setContent(html_cd8163a65ecd9ae0ceca891cba5ff3d6);
+            
+        
+
+        marker_39b5554362612f6d6c8fef00fd5db393.bindPopup(popup_67441747fac1606455b752980edd4e39)
+        ;
+
+        
+    
+    
+            var marker_d15a1a7af2eaf71fdc5b50989b6cabe2 = L.marker(
+                [52.36557, 4.88776],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_06f9b10351c2b40912d0bf35b0064f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd69ee51f99b727ba2857f4a910a47ac = $(`<div id="html_dd69ee51f99b727ba2857f4a910a47ac" style="width: 100.0%; height: 100.0%;">Private luxury citycentre Loft @ leidseplein</div>`)[0];
+                popup_06f9b10351c2b40912d0bf35b0064f21.setContent(html_dd69ee51f99b727ba2857f4a910a47ac);
+            
+        
+
+        marker_d15a1a7af2eaf71fdc5b50989b6cabe2.bindPopup(popup_06f9b10351c2b40912d0bf35b0064f21)
+        ;
+
+        
+    
+    
+            var marker_b113e45e6bb5ea9fd9dcd64d7a7b942b = L.marker(
+                [52.3726, 4.9039],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_2c8301cc2cecdd291f0b842ff389a4b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5885cc0b1e15d564fdc58311a00d19f3 = $(`<div id="html_5885cc0b1e15d564fdc58311a00d19f3" style="width: 100.0%; height: 100.0%;">Luxurious 3 floor loft in the city centre</div>`)[0];
+                popup_2c8301cc2cecdd291f0b842ff389a4b9.setContent(html_5885cc0b1e15d564fdc58311a00d19f3);
+            
+        
+
+        marker_b113e45e6bb5ea9fd9dcd64d7a7b942b.bindPopup(popup_2c8301cc2cecdd291f0b842ff389a4b9)
+        ;
+
+        
+    
+    
+            var marker_a86b3de4733fe510859557eeec34d24b = L.marker(
+                [52.362663, 4.927499],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_3008cc3d17da41890c629b39e87ab1d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8264d3e7ec37bf2769dbe081e1118234 = $(`<div id="html_8264d3e7ec37bf2769dbe081e1118234" style="width: 100.0%; height: 100.0%;">Appartement in city center of Amsterdam</div>`)[0];
+                popup_3008cc3d17da41890c629b39e87ab1d7.setContent(html_8264d3e7ec37bf2769dbe081e1118234);
+            
+        
+
+        marker_a86b3de4733fe510859557eeec34d24b.bindPopup(popup_3008cc3d17da41890c629b39e87ab1d7)
+        ;
+
+        
+    
+    
+            var marker_29376e80aef39527949e362f08999d95 = L.marker(
+                [52.36971, 4.84919],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_cb55da2926ec0e770ff997949ace01e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b4d23cca971b69d4e594143f62ff74e = $(`<div id="html_6b4d23cca971b69d4e594143f62ff74e" style="width: 100.0%; height: 100.0%;">Newly renovated apartment in hip & local district</div>`)[0];
+                popup_cb55da2926ec0e770ff997949ace01e6.setContent(html_6b4d23cca971b69d4e594143f62ff74e);
+            
+        
+
+        marker_29376e80aef39527949e362f08999d95.bindPopup(popup_cb55da2926ec0e770ff997949ace01e6)
+        ;
+
+        
+    
+    
+            var marker_1908c8df9f13c51fc15f064657e8827b = L.marker(
+                [52.41119, 4.8931],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_6423ee16b09aab551b6143c9880839f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe831c2f9c1831091ad54bc854a21e69 = $(`<div id="html_fe831c2f9c1831091ad54bc854a21e69" style="width: 100.0%; height: 100.0%;">Delightfull spacious room in gorgeous home</div>`)[0];
+                popup_6423ee16b09aab551b6143c9880839f9.setContent(html_fe831c2f9c1831091ad54bc854a21e69);
+            
+        
+
+        marker_1908c8df9f13c51fc15f064657e8827b.bindPopup(popup_6423ee16b09aab551b6143c9880839f9)
+        ;
+
+        
+    
+    
+            var marker_26773889a4140d73485b56478e60468e = L.marker(
+                [52.37099389999999, 4.869612],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_b877aa52cce952aa4ef5839083e66678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d11b9f18d5a32fb1f3aab73795814de = $(`<div id="html_4d11b9f18d5a32fb1f3aab73795814de" style="width: 100.0%; height: 100.0%;">Cosy Stay in Amsterdam West</div>`)[0];
+                popup_b877aa52cce952aa4ef5839083e66678.setContent(html_4d11b9f18d5a32fb1f3aab73795814de);
+            
+        
+
+        marker_26773889a4140d73485b56478e60468e.bindPopup(popup_b877aa52cce952aa4ef5839083e66678)
+        ;
+
+        
+    
+    
+            var marker_2b249595a2c4b11a68b11b62ebb74bfe = L.marker(
+                [52.34702, 4.90981],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_7f69ce0967fe819d248f55830b289e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06dd5242d5349c3993e9712a4f2d6333 = $(`<div id="html_06dd5242d5349c3993e9712a4f2d6333" style="width: 100.0%; height: 100.0%;">6E - Congress Centre Apartments</div>`)[0];
+                popup_7f69ce0967fe819d248f55830b289e6d.setContent(html_06dd5242d5349c3993e9712a4f2d6333);
+            
+        
+
+        marker_2b249595a2c4b11a68b11b62ebb74bfe.bindPopup(popup_7f69ce0967fe819d248f55830b289e6d)
+        ;
+
+        
+    
+    
+            var marker_2214d04e57e869f9f73f74427f32b9d9 = L.marker(
+                [52.37146463609362, 4.869799241423607],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_9646d23c1cdf3b0bbfc30136f79235fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7172e4827dd52a3371f933a3260cd16d = $(`<div id="html_7172e4827dd52a3371f933a3260cd16d" style="width: 100.0%; height: 100.0%;">Pearl of Amsterdam</div>`)[0];
+                popup_9646d23c1cdf3b0bbfc30136f79235fe.setContent(html_7172e4827dd52a3371f933a3260cd16d);
+            
+        
+
+        marker_2214d04e57e869f9f73f74427f32b9d9.bindPopup(popup_9646d23c1cdf3b0bbfc30136f79235fe)
+        ;
+
+        
+    
+    
+            var marker_6de51c4c509d5d7a9565fe7c8f5750b8 = L.marker(
+                [52.36436, 4.93898],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_0022fffce2a68ddd854283cd349ea7e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2302f1e13b623197a105fe7d389cd587 = $(`<div id="html_2302f1e13b623197a105fe7d389cd587" style="width: 100.0%; height: 100.0%;">Fully equipped apartment in vibrant neighbourhood</div>`)[0];
+                popup_0022fffce2a68ddd854283cd349ea7e2.setContent(html_2302f1e13b623197a105fe7d389cd587);
+            
+        
+
+        marker_6de51c4c509d5d7a9565fe7c8f5750b8.bindPopup(popup_0022fffce2a68ddd854283cd349ea7e2)
+        ;
+
+        
+    
+    
+            var marker_783475f11280acbc849273d7d17ab2ae = L.marker(
+                [52.36833, 4.93082],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_10f6271cb411196e750839c7332b6f68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_826ae512aefa2a2b30985c08cc0aa328 = $(`<div id="html_826ae512aefa2a2b30985c08cc0aa328" style="width: 100.0%; height: 100.0%;">Cozy Houseboat in Centre of Amsterdam</div>`)[0];
+                popup_10f6271cb411196e750839c7332b6f68.setContent(html_826ae512aefa2a2b30985c08cc0aa328);
+            
+        
+
+        marker_783475f11280acbc849273d7d17ab2ae.bindPopup(popup_10f6271cb411196e750839c7332b6f68)
+        ;
+
+        
+    
+    
+            var marker_c7c718e3a7e81d0fac99ffdbb7e039dd = L.marker(
+                [52.3804616, 4.9676803],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_8417575167ffa964ac51ff2f326c44d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0596f4af2d2e23d343cc5b18f7be0a = $(`<div id="html_1b0596f4af2d2e23d343cc5b18f7be0a" style="width: 100.0%; height: 100.0%;">Origineel overnachten op woonboot</div>`)[0];
+                popup_8417575167ffa964ac51ff2f326c44d5.setContent(html_1b0596f4af2d2e23d343cc5b18f7be0a);
+            
+        
+
+        marker_c7c718e3a7e81d0fac99ffdbb7e039dd.bindPopup(popup_8417575167ffa964ac51ff2f326c44d5)
+        ;
+
+        
+    
+    
+            var marker_9d4da78db253ac0f7189ab61752d09e9 = L.marker(
+                [52.35665549691783, 4.917576002409747],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_774166f7cada47df79114e91583b9ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f694db85cbab688bf9a683d25d61f212 = $(`<div id="html_f694db85cbab688bf9a683d25d61f212" style="width: 100.0%; height: 100.0%;">Knus appartement met tuin en WFH</div>`)[0];
+                popup_774166f7cada47df79114e91583b9ec9.setContent(html_f694db85cbab688bf9a683d25d61f212);
+            
+        
+
+        marker_9d4da78db253ac0f7189ab61752d09e9.bindPopup(popup_774166f7cada47df79114e91583b9ec9)
+        ;
+
+        
+    
+    
+            var marker_829490e7e398a985622047de1c8323fb = L.marker(
+                [52.37014708208149, 4.877555884655762],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_037ff2c183d669b07e092257db8033c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f001a6dc0e861b882d58ee10227bc1eb = $(`<div id="html_f001a6dc0e861b882d58ee10227bc1eb" style="width: 100.0%; height: 100.0%;">Hotel-like guesthouse Amsterdam Centre</div>`)[0];
+                popup_037ff2c183d669b07e092257db8033c3.setContent(html_f001a6dc0e861b882d58ee10227bc1eb);
+            
+        
+
+        marker_829490e7e398a985622047de1c8323fb.bindPopup(popup_037ff2c183d669b07e092257db8033c3)
+        ;
+
+        
+    
+    
+            var marker_0f3a0d719221fcef867696ed7507c240 = L.marker(
+                [52.362637, 4.878065],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_9198c9cb52abcd00705c8cbd8e207a88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_767461db3e9b96d2dfa00d0103108862 = $(`<div id="html_767461db3e9b96d2dfa00d0103108862" style="width: 100.0%; height: 100.0%;">Vondel Apartment - Catalonia Vondel Amsterdam 4*</div>`)[0];
+                popup_9198c9cb52abcd00705c8cbd8e207a88.setContent(html_767461db3e9b96d2dfa00d0103108862);
+            
+        
+
+        marker_0f3a0d719221fcef867696ed7507c240.bindPopup(popup_9198c9cb52abcd00705c8cbd8e207a88)
+        ;
+
+        
+    
+    
+            var marker_201ba73ead74d8ea07288dffa08dcc93 = L.marker(
+                [52.38883, 4.95662],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_0ada8d0e7e79092355b48694bea73d6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_741ba24242d1654ea7864e68f5f99221 = $(`<div id="html_741ba24242d1654ea7864e68f5f99221" style="width: 100.0%; height: 100.0%;">Large cosy family house in trendy Amsterdam Noord</div>`)[0];
+                popup_0ada8d0e7e79092355b48694bea73d6e.setContent(html_741ba24242d1654ea7864e68f5f99221);
+            
+        
+
+        marker_201ba73ead74d8ea07288dffa08dcc93.bindPopup(popup_0ada8d0e7e79092355b48694bea73d6e)
+        ;
+
+        
+    
+    
+            var marker_791edd35544056931ef39f89b0207fcd = L.marker(
+                [52.342693, 4.918949],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_efe54dc442443758fa3f7b0f53324fbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d315aa97fe8256184602ce067cef99e8 = $(`<div id="html_d315aa97fe8256184602ce067cef99e8" style="width: 100.0%; height: 100.0%;">SWEETS hotel Omvalbrug</div>`)[0];
+                popup_efe54dc442443758fa3f7b0f53324fbd.setContent(html_d315aa97fe8256184602ce067cef99e8);
+            
+        
+
+        marker_791edd35544056931ef39f89b0207fcd.bindPopup(popup_efe54dc442443758fa3f7b0f53324fbd)
+        ;
+
+        
+    
+    
+            var marker_afe9553af43785dd6099f5824b6a6c8a = L.marker(
+                [52.34917, 4.89479],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_9ec03b4bc1f18416818fa2d6fbc2f80d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_694a6ccb2fd96b9f3feeef782edf71df = $(`<div id="html_694a6ccb2fd96b9f3feeef782edf71df" style="width: 100.0%; height: 100.0%;">Spacious & Light 2 bedr aptm near RAI and Center</div>`)[0];
+                popup_9ec03b4bc1f18416818fa2d6fbc2f80d.setContent(html_694a6ccb2fd96b9f3feeef782edf71df);
+            
+        
+
+        marker_afe9553af43785dd6099f5824b6a6c8a.bindPopup(popup_9ec03b4bc1f18416818fa2d6fbc2f80d)
+        ;
+
+        
+    
+    
+            var marker_b08e05359f82aff435f3249c209c3d17 = L.marker(
+                [52.35987, 4.88808],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_75ef967cc4f8450d2985e4df97036ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f24fc32a669b8a81497faa9a88823f0b = $(`<div id="html_f24fc32a669b8a81497faa9a88823f0b" style="width: 100.0%; height: 100.0%;">Family Maisonette apartment</div>`)[0];
+                popup_75ef967cc4f8450d2985e4df97036ce8.setContent(html_f24fc32a669b8a81497faa9a88823f0b);
+            
+        
+
+        marker_b08e05359f82aff435f3249c209c3d17.bindPopup(popup_75ef967cc4f8450d2985e4df97036ce8)
+        ;
+
+        
+    
+    
+            var marker_451774ed4b99e960eb7bfc2550bd582a = L.marker(
+                [52.37173, 4.87109],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_5f3b4c28b2ebb28cb2bda72566949137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f85e2e55e2fca888d38519cc3abfa102 = $(`<div id="html_f85e2e55e2fca888d38519cc3abfa102" style="width: 100.0%; height: 100.0%;">2 floor apt with rooftop on canal</div>`)[0];
+                popup_5f3b4c28b2ebb28cb2bda72566949137.setContent(html_f85e2e55e2fca888d38519cc3abfa102);
+            
+        
+
+        marker_451774ed4b99e960eb7bfc2550bd582a.bindPopup(popup_5f3b4c28b2ebb28cb2bda72566949137)
+        ;
+
+        
+    
+    
+            var marker_c9bbedeeb417427e0ced050f337a1901 = L.marker(
+                [52.37159, 4.89477],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_d9a6d11ad53bda646e13a379bd90cb29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27e7fe87ae493d799b65f10baf347f32 = $(`<div id="html_27e7fe87ae493d799b65f10baf347f32" style="width: 100.0%; height: 100.0%;">luxurious furnished penthouse</div>`)[0];
+                popup_d9a6d11ad53bda646e13a379bd90cb29.setContent(html_27e7fe87ae493d799b65f10baf347f32);
+            
+        
+
+        marker_c9bbedeeb417427e0ced050f337a1901.bindPopup(popup_d9a6d11ad53bda646e13a379bd90cb29)
+        ;
+
+        
+    
+    
+            var marker_1e6818823af6d844324328e0f6cdae57 = L.marker(
+                [52.360874, 4.898341],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_bccda8bc6b015c1b6b4f64751873b72a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6621059e1539c02e13b0fb5d994e2026 = $(`<div id="html_6621059e1539c02e13b0fb5d994e2026" style="width: 100.0%; height: 100.0%;">Stylish apartment in canal house in city centre</div>`)[0];
+                popup_bccda8bc6b015c1b6b4f64751873b72a.setContent(html_6621059e1539c02e13b0fb5d994e2026);
+            
+        
+
+        marker_1e6818823af6d844324328e0f6cdae57.bindPopup(popup_bccda8bc6b015c1b6b4f64751873b72a)
+        ;
+
+        
+    
+    
+            var marker_6d6b0d5d5596574935769cb2378123da = L.marker(
+                [52.36456146107414, 4.916006515344256],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_e27042edbaf5216a5d56f202e3f5fd19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62dccd892ed01ebb5eb06cd6aba632fd = $(`<div id="html_62dccd892ed01ebb5eb06cd6aba632fd" style="width: 100.0%; height: 100.0%;">Quiet apartment near the Zoo</div>`)[0];
+                popup_e27042edbaf5216a5d56f202e3f5fd19.setContent(html_62dccd892ed01ebb5eb06cd6aba632fd);
+            
+        
+
+        marker_6d6b0d5d5596574935769cb2378123da.bindPopup(popup_e27042edbaf5216a5d56f202e3f5fd19)
+        ;
+
+        
+    
+    
+            var marker_3e3bee4823ba06c547de82b753ada363 = L.marker(
+                [52.350070096029334, 4.845935989498599],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_00477566d2dd1667af3377af7c946892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a5555e6a5dbcde0dc2459c9f61606c1 = $(`<div id="html_8a5555e6a5dbcde0dc2459c9f61606c1" style="width: 100.0%; height: 100.0%;">Andrea’s place</div>`)[0];
+                popup_00477566d2dd1667af3377af7c946892.setContent(html_8a5555e6a5dbcde0dc2459c9f61606c1);
+            
+        
+
+        marker_3e3bee4823ba06c547de82b753ada363.bindPopup(popup_00477566d2dd1667af3377af7c946892)
+        ;
+
+        
+    
+    
+            var marker_ea67c4eaca0cf1dd520ead55a28c8306 = L.marker(
+                [52.37707, 4.83557],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_2d98ed4bcf7cdbf8a65542cb055e337a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae38d3a7b1d14b4400feddfcdad5e90 = $(`<div id="html_eae38d3a7b1d14b4400feddfcdad5e90" style="width: 100.0%; height: 100.0%;">gezellig appartement (48m2)</div>`)[0];
+                popup_2d98ed4bcf7cdbf8a65542cb055e337a.setContent(html_eae38d3a7b1d14b4400feddfcdad5e90);
+            
+        
+
+        marker_ea67c4eaca0cf1dd520ead55a28c8306.bindPopup(popup_2d98ed4bcf7cdbf8a65542cb055e337a)
+        ;
+
+        
+    
+    
+            var marker_5b809405141f3ca900e8c9c94b473713 = L.marker(
+                [52.369362093269714, 4.868610157672104],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_1eb3ffe20717e61dc65ab7ba69629edb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c60555036fe7639cd5df52621c31390 = $(`<div id="html_4c60555036fe7639cd5df52621c31390" style="width: 100.0%; height: 100.0%;">Prachtig, stijlvol huis op de gracht!</div>`)[0];
+                popup_1eb3ffe20717e61dc65ab7ba69629edb.setContent(html_4c60555036fe7639cd5df52621c31390);
+            
+        
+
+        marker_5b809405141f3ca900e8c9c94b473713.bindPopup(popup_1eb3ffe20717e61dc65ab7ba69629edb)
+        ;
+
+        
+    
+    
+            var marker_3a7890b1c0d1e5b85baa331479846923 = L.marker(
+                [52.38291, 4.87678],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_6112cb82681322cd41df4a436ce9b779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa557268204a2d280f0c2e2177c99f2d = $(`<div id="html_fa557268204a2d280f0c2e2177c99f2d" style="width: 100.0%; height: 100.0%;">Stylish apartment Westerpark with private patio.</div>`)[0];
+                popup_6112cb82681322cd41df4a436ce9b779.setContent(html_fa557268204a2d280f0c2e2177c99f2d);
+            
+        
+
+        marker_3a7890b1c0d1e5b85baa331479846923.bindPopup(popup_6112cb82681322cd41df4a436ce9b779)
+        ;
+
+        
+    
+    
+            var marker_58240d58457c5fb077c87c965d78af65 = L.marker(
+                [52.39075199428706, 4.87697299999998],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_3a920a835cfdb348766d181ca489dcac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df05d4f999cedc0f1e0df8643ffe5478 = $(`<div id="html_df05d4f999cedc0f1e0df8643ffe5478" style="width: 100.0%; height: 100.0%;">Rustig centraal gezellig appartement incl. fietsen</div>`)[0];
+                popup_3a920a835cfdb348766d181ca489dcac.setContent(html_df05d4f999cedc0f1e0df8643ffe5478);
+            
+        
+
+        marker_58240d58457c5fb077c87c965d78af65.bindPopup(popup_3a920a835cfdb348766d181ca489dcac)
+        ;
+
+        
+    
+    
+            var marker_cc6fbdc3d9e32f3ad96acd81d1ef070d = L.marker(
+                [52.36505, 4.86727],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_5a4a11295b7a0e00bc5be0ff24b5e688 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_546d0e45d553903070158d18494a4598 = $(`<div id="html_546d0e45d553903070158d18494a4598" style="width: 100.0%; height: 100.0%;">Luxe appartement Amsterdam 2 p.</div>`)[0];
+                popup_5a4a11295b7a0e00bc5be0ff24b5e688.setContent(html_546d0e45d553903070158d18494a4598);
+            
+        
+
+        marker_cc6fbdc3d9e32f3ad96acd81d1ef070d.bindPopup(popup_5a4a11295b7a0e00bc5be0ff24b5e688)
+        ;
+
+        
+    
+    
+            var marker_87fbbdb07116e9a7e7c0ddbdd6d88e8f = L.marker(
+                [52.36775553603739, 4.874214828014374],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_24f3b69508f2e99461d7ec1b30fb7b54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185c90eba63493d2c5dd2919e2ae0e24 = $(`<div id="html_185c90eba63493d2c5dd2919e2ae0e24" style="width: 100.0%; height: 100.0%;">Central Amsterdam studio full kitchen 2 free bikes</div>`)[0];
+                popup_24f3b69508f2e99461d7ec1b30fb7b54.setContent(html_185c90eba63493d2c5dd2919e2ae0e24);
+            
+        
+
+        marker_87fbbdb07116e9a7e7c0ddbdd6d88e8f.bindPopup(popup_24f3b69508f2e99461d7ec1b30fb7b54)
+        ;
+
+        
+    
+    
+            var marker_67b71c5148d62e8cd978228d78d41c33 = L.marker(
+                [52.38436, 4.83226],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_5ae9c400ccb443d0b8ddcb3d8cb55410 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c576f7903ed88d633234974e3507cae = $(`<div id="html_9c576f7903ed88d633234974e3507cae" style="width: 100.0%; height: 100.0%;">Family house near centre of Amsterdam</div>`)[0];
+                popup_5ae9c400ccb443d0b8ddcb3d8cb55410.setContent(html_9c576f7903ed88d633234974e3507cae);
+            
+        
+
+        marker_67b71c5148d62e8cd978228d78d41c33.bindPopup(popup_5ae9c400ccb443d0b8ddcb3d8cb55410)
+        ;
+
+        
+    
+    
+            var marker_138d7c667b4061887520fbc683bb6799 = L.marker(
+                [52.37002, 4.92502],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_b0078fb6b907f86b6f16eedacf35c93a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0cc4d893717f66ee364b1a276d4a0e0 = $(`<div id="html_a0cc4d893717f66ee364b1a276d4a0e0" style="width: 100.0%; height: 100.0%;">Central Apartment Surrounded by Green Areas</div>`)[0];
+                popup_b0078fb6b907f86b6f16eedacf35c93a.setContent(html_a0cc4d893717f66ee364b1a276d4a0e0);
+            
+        
+
+        marker_138d7c667b4061887520fbc683bb6799.bindPopup(popup_b0078fb6b907f86b6f16eedacf35c93a)
+        ;
+
+        
+    
+    
+            var marker_7a8ff932a2e1070ff1894e22a4a1cb47 = L.marker(
+                [52.37354, 4.85981],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_4c9757c94f9fba878adaf495016eef4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3a7db1008515fd9d76f8694205370d = $(`<div id="html_2f3a7db1008515fd9d76f8694205370d" style="width: 100.0%; height: 100.0%;">Cozy room in trendy West - 15 minutes from centre</div>`)[0];
+                popup_4c9757c94f9fba878adaf495016eef4b.setContent(html_2f3a7db1008515fd9d76f8694205370d);
+            
+        
+
+        marker_7a8ff932a2e1070ff1894e22a4a1cb47.bindPopup(popup_4c9757c94f9fba878adaf495016eef4b)
+        ;
+
+        
+    
+    
+            var marker_9a6f451be450990ff452893244bfad9a = L.marker(
+                [52.34955, 4.8449],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_667167d0c8b1c8ea8317813011fe3505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2d0dd7a10f4ec1710c065ff611b7afb = $(`<div id="html_b2d0dd7a10f4ec1710c065ff611b7afb" style="width: 100.0%; height: 100.0%;">NEW Beautiful spacious apt near Vondelpark | 140m2</div>`)[0];
+                popup_667167d0c8b1c8ea8317813011fe3505.setContent(html_b2d0dd7a10f4ec1710c065ff611b7afb);
+            
+        
+
+        marker_9a6f451be450990ff452893244bfad9a.bindPopup(popup_667167d0c8b1c8ea8317813011fe3505)
+        ;
+
+        
+    
+    
+            var marker_1a303f73795fa3b68f7a79d675733e2d = L.marker(
+                [52.36554, 4.90685],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_c22abebac4f5b0f14443d2979ff4a822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b641ca6eadd25c77d2b4b1362ffb042 = $(`<div id="html_2b641ca6eadd25c77d2b4b1362ffb042" style="width: 100.0%; height: 100.0%;">Spacious Family Home at Unique Downtown Location</div>`)[0];
+                popup_c22abebac4f5b0f14443d2979ff4a822.setContent(html_2b641ca6eadd25c77d2b4b1362ffb042);
+            
+        
+
+        marker_1a303f73795fa3b68f7a79d675733e2d.bindPopup(popup_c22abebac4f5b0f14443d2979ff4a822)
+        ;
+
+        
+    
+    
+            var marker_543a2c59696411b02111e893d6542073 = L.marker(
+                [52.378207718490515, 4.892641452375609],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_b8205b3c3164a8deccd0981e3efcda8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af3a72df90830f4ea9aa3819ef838db7 = $(`<div id="html_af3a72df90830f4ea9aa3819ef838db7" style="width: 100.0%; height: 100.0%;">Luxurious house at the canals.</div>`)[0];
+                popup_b8205b3c3164a8deccd0981e3efcda8e.setContent(html_af3a72df90830f4ea9aa3819ef838db7);
+            
+        
+
+        marker_543a2c59696411b02111e893d6542073.bindPopup(popup_b8205b3c3164a8deccd0981e3efcda8e)
+        ;
+
+        
+    
+    
+            var marker_7b9e4c6240b9dff51b12e179d7405a84 = L.marker(
+                [52.34992444490095, 4.8946293764980116],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_2e7e9bdeb27547fa592c7b50bd4b074e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d991f81bd4a46ea5a612edc3b9d924a = $(`<div id="html_0d991f81bd4a46ea5a612edc3b9d924a" style="width: 100.0%; height: 100.0%;">60's inspired apt. in De Pijp</div>`)[0];
+                popup_2e7e9bdeb27547fa592c7b50bd4b074e.setContent(html_0d991f81bd4a46ea5a612edc3b9d924a);
+            
+        
+
+        marker_7b9e4c6240b9dff51b12e179d7405a84.bindPopup(popup_2e7e9bdeb27547fa592c7b50bd4b074e)
+        ;
+
+        
+    
+    
+            var marker_971b86f9c6d03b56c4aff66967105ac4 = L.marker(
+                [52.40046, 4.90433],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_16a723be349f6aadaf17c7b350aa684a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b398da9f7690dfb3cffa27dc1599df2 = $(`<div id="html_7b398da9f7690dfb3cffa27dc1599df2" style="width: 100.0%; height: 100.0%;">Amazing studio in our family house at NDSM</div>`)[0];
+                popup_16a723be349f6aadaf17c7b350aa684a.setContent(html_7b398da9f7690dfb3cffa27dc1599df2);
+            
+        
+
+        marker_971b86f9c6d03b56c4aff66967105ac4.bindPopup(popup_16a723be349f6aadaf17c7b350aa684a)
+        ;
+
+        
+    
+    
+            var marker_9855da5a928e6c0fe90bfe48858047b8 = L.marker(
+                [52.35717, 4.89633],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_c4eb0f69aee9e8ffbc3d59a0afd7928b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be099c0e813cfa0d3122de9172959196 = $(`<div id="html_be099c0e813cfa0d3122de9172959196" style="width: 100.0%; height: 100.0%;">Central Pijp area, next to restaurants and musea</div>`)[0];
+                popup_c4eb0f69aee9e8ffbc3d59a0afd7928b.setContent(html_be099c0e813cfa0d3122de9172959196);
+            
+        
+
+        marker_9855da5a928e6c0fe90bfe48858047b8.bindPopup(popup_c4eb0f69aee9e8ffbc3d59a0afd7928b)
+        ;
+
+        
+    
+    
+            var marker_488d5d1406879cbf9ba58e64ef4e4876 = L.marker(
+                [52.36630286629583, 4.883902601860965],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_ab6bae8ae0c7a9f618b37ee8613adb47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57c0991e955d5c6390fa5d3fefa9f73 = $(`<div id="html_e57c0991e955d5c6390fa5d3fefa9f73" style="width: 100.0%; height: 100.0%;">Spacious and stylish apartment with roof terrace</div>`)[0];
+                popup_ab6bae8ae0c7a9f618b37ee8613adb47.setContent(html_e57c0991e955d5c6390fa5d3fefa9f73);
+            
+        
+
+        marker_488d5d1406879cbf9ba58e64ef4e4876.bindPopup(popup_ab6bae8ae0c7a9f618b37ee8613adb47)
+        ;
+
+        
+    
+    
+            var marker_5dfcda62648b439850086dde6706753f = L.marker(
+                [52.35017, 4.88996],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_56a21c171982913846a00732f46918fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc90ff39e3a59e621fd31c81a187ad9a = $(`<div id="html_dc90ff39e3a59e621fd31c81a187ad9a" style="width: 100.0%; height: 100.0%;">Glamping at AmsterDome a rooftop with best views</div>`)[0];
+                popup_56a21c171982913846a00732f46918fb.setContent(html_dc90ff39e3a59e621fd31c81a187ad9a);
+            
+        
+
+        marker_5dfcda62648b439850086dde6706753f.bindPopup(popup_56a21c171982913846a00732f46918fb)
+        ;
+
+        
+    
+    
+            var marker_4260f1a8ab3879be4377b7967bb72491 = L.marker(
+                [52.35419, 4.99407],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_c1f9a7d1e129c1f34505c2cc1e405b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2219fd22c14f7829bea8fa1d452e920 = $(`<div id="html_b2219fd22c14f7829bea8fa1d452e920" style="width: 100.0%; height: 100.0%;">Lovely 1 bedroom bnb</div>`)[0];
+                popup_c1f9a7d1e129c1f34505c2cc1e405b98.setContent(html_b2219fd22c14f7829bea8fa1d452e920);
+            
+        
+
+        marker_4260f1a8ab3879be4377b7967bb72491.bindPopup(popup_c1f9a7d1e129c1f34505c2cc1e405b98)
+        ;
+
+        
+    
+    
+            var marker_fad91f2eb50163f2d830817da4167575 = L.marker(
+                [52.37641, 4.8759],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_f5e739d7022c4c0dce78fb79b076d39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9258565a3636e7aaaf5210e6e2a2e38 = $(`<div id="html_f9258565a3636e7aaaf5210e6e2a2e38" style="width: 100.0%; height: 100.0%;">Stylish large house with garden!</div>`)[0];
+                popup_f5e739d7022c4c0dce78fb79b076d39a.setContent(html_f9258565a3636e7aaaf5210e6e2a2e38);
+            
+        
+
+        marker_fad91f2eb50163f2d830817da4167575.bindPopup(popup_f5e739d7022c4c0dce78fb79b076d39a)
+        ;
+
+        
+    
+    
+            var marker_ff1e09836b291050b6a48b8b7beb86d0 = L.marker(
+                [52.36402, 4.91025],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_f8a28c8d749e90a716051bf0fd1c7003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1b55d56dba74d79ec4b90a0a89bc67 = $(`<div id="html_2b1b55d56dba74d79ec4b90a0a89bc67" style="width: 100.0%; height: 100.0%;">Wittenberg by Cove TwoBed Mezzanine Twin Apartment</div>`)[0];
+                popup_f8a28c8d749e90a716051bf0fd1c7003.setContent(html_2b1b55d56dba74d79ec4b90a0a89bc67);
+            
+        
+
+        marker_ff1e09836b291050b6a48b8b7beb86d0.bindPopup(popup_f8a28c8d749e90a716051bf0fd1c7003)
+        ;
+
+        
+    
+    
+            var marker_d4476c2484e263bb3956218327cf8109 = L.marker(
+                [52.35687, 4.91875],
+                {}
+            ).addTo(map_6d5451e6964fed619852e4c266afd3a2);
+        
+    
+        var popup_a02b7af0459e94923dbc1bfe740b741e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d8a63555c5075a5e85b6cd33919193 = $(`<div id="html_70d8a63555c5075a5e85b6cd33919193" style="width: 100.0%; height: 100.0%;">New: Sunny top floor 100m2 apartment @ Oosterpark</div>`)[0];
+                popup_a02b7af0459e94923dbc1bfe740b741e.setContent(html_70d8a63555c5075a5e85b6cd33919193);
+            
+        
+
+        marker_d4476c2484e263bb3956218327cf8109.bindPopup(popup_a02b7af0459e94923dbc1bfe740b741e)
+        ;
+
+        
+    
+</script>
+</html>
